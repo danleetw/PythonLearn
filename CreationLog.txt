@@ -1,0 +1,4 @@
+
+Created on 2018-10-11 in 'D:\DanLee\Python_WorkSpace//.db' ,Used Query : CREATE TABLE ( )
+
+Created on 2018-10-11 in 'D:\DanLee\Python_WorkSpace/file/Data.db' ,Used Query : CREATE TABLE Phone(id text,name text,surname text,telephone text)
