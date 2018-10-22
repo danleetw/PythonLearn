@@ -13,9 +13,9 @@ import tkinter as tk
 
 
 PgTitle="歡迎使用,快取查詢電話簿 v20181018a"
-TableName="CTBCPhoneList"
-HistTableName="CTBCPhoneList_Hist"
-#url="http://ga.chinatrust.com.tw/tel/search.asp?Page=3&key=個金稽核部"
+TableName="PhoneList"
+HistTableName="PhoneList_Hist"
+
 
 
 conn=sqlite3.connect('DanSQLLiteDB.db')
@@ -243,7 +243,7 @@ def Query():
         return
     
     global url
-    url="http://ga.chinatrust.com.tw/tel/search.asp?key="+keystr+"&Page="
+    url="http://ga.ccc.com.tw/tel/search.asp?key="+keystr+"&Page="
 
     print("搜詢:",keystr)
     lb.delete(0,lb.size())
